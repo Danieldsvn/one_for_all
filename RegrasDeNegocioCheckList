@@ -1,0 +1,26 @@
+---> SPOTIFY CLONE <---
+
+
+-REGRAS DE NEGÓCIO-
+
+Seu banco de dados deve seguir as regras de negócio e ser capaz de recuperar:
+
+Informações sobre quais planos estão disponíveis e seus detalhes; OK
+
+Cada pessoa usuária pode possuir apenas um plano.  OK
+Informações sobre todas as pessoas artistas; TALVEZ
+
+Uma pessoa artista pode ter vários álbuns; OK
+Uma pessoa artista pode ser seguida por várias pessoas usuárias.  OK
+Informações sobre todos os álbuns de cada artista; OK
+
+Para fins deste projeto, considere que cada álbum possui apenas uma pessoa artista como principal; OK
+Cada álbum possui várias canções. OK 
+Informações sobre todas as canções de cada álbum; OK
+
+Para fins deste projeto, considere que cada canção está contida em apenas um álbum. OK
+Informações sobre todas as pessoas usuárias, seus planos, seu histórico de reprodução e pessoas artistas seguidas.
+
+Uma pessoa usuária pode possuir apenas um plano;
+Cada música do histórico de reprodução pode aparecer uma única vez por pessoa (para simplificar, considere que o objetivo do histórico é saber quais canções já foram reproduzidas e não quantas vezes foram reproduzidas);
+Uma pessoa usuária pode seguir várias pessoas artistas, mas cada pessoa artista pode ser seguida apenas uma vez por pessoa usuária.
