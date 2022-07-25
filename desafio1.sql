@@ -44,16 +44,17 @@ CREATE TABLE usuario_artistas_seguidos(
 	usuario_id INT NOT NULL,
   artista_id INT NOT NULL,
   FOREIGN KEY (usuario_id) REFERENCES usuario (id),
-  FOREIGN KEY (artista_id) REFERENCES artista (id)
+  FOREIGN KEY (artista_id) REFERENCES artista (id),
+  CONSTRAINT PRIMARY KEY (usuario_id, artista_id)
 );
 
 CREATE TABLE historico_usuario(
-  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	cancao_id INT NOT NULL,
   usuario_id INT NOT NULL,
   data_reproducao DATETIME NOT NULL,
   FOREIGN KEY (cancao_id) REFERENCES cancao (id),
-  FOREIGN KEY (usuario_id) REFERENCES usuario (id)
+  FOREIGN KEY (usuario_id) REFERENCES usuario (id),
+  CONSTRAINT PRIMARY KEY (cancao_id, usuario_id, data_reproducao)
 );
 
 INSERT INTO plano ( nome, valor)
@@ -293,4 +294,7 @@ INSERT INTO usuario_artistas_seguidos (usuario_id, artista_id) VALUES(9, 6);
 INSERT INTO usuario_artistas_seguidos (usuario_id, artista_id) VALUES(9, 4);
 INSERT INTO usuario_artistas_seguidos (usuario_id, artista_id) VALUES(9, 3);
 INSERT INTO usuario_artistas_seguidos (usuario_id, artista_id) VALUES(10, 2);
-INSERT INTO usuario_artistas_seguidos (usuario_id, artista_id) VALUES(10, 6);
+INSERT INTO usuario_artistas_seguidos (usuario_id, artista_id) VALUES(10, 6); 
+  
+
+  
