@@ -221,7 +221,7 @@ INSERT INTO historico_usuario (cancao_id,usuario_id, data_reproducao)
 INSERT INTO historico_usuario (cancao_id,usuario_id, data_reproducao)
   VALUES('26', 3, '2020-07-30 10:00:00');
 INSERT INTO historico_usuario (cancao_id,usuario_id, data_reproducao)
-  VALUES('20', 4, '2021-08-15 17:10:10');
+  VALUES('2', 4, '2021-08-15 17:10:10');
 INSERT INTO historico_usuario (cancao_id,usuario_id, data_reproducao)
   VALUES('35', 4, '2021-07-10 15:20:30');
 INSERT INTO historico_usuario (cancao_id,usuario_id, data_reproducao)
