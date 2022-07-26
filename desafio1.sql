@@ -95,25 +95,25 @@ INSERT INTO artista (nome) VALUES ('Tyler Isle');
 INSERT INTO artista (nome) VALUES ('Fog');
 
 INSERT INTO album (nome, id_artista, ano_lancamento)
-	VALUES ('Envios', 1, 1990);
+	VALUES ('Envious', 1, 1990);
 INSERT INTO album (nome, id_artista, ano_lancamento)
 	VALUES ('Exuberant', 1, 1993);
 INSERT INTO album (nome, id_artista, ano_lancamento)
-	VALUES ('Hallowed Steam', 1, 1995);  
+	VALUES ('Hallowed Steam', 2, 1995);  
 INSERT INTO album (nome, id_artista, ano_lancamento)
-	VALUES ('Incandescent', 1, 1998);
+	VALUES ('Incandescent', 3, 1998);
 INSERT INTO album (nome, id_artista, ano_lancamento)
-	VALUES ('Temporary Culture', 1, 2001);
+	VALUES ('Temporary Culture', 4, 2001);
 INSERT INTO album (nome, id_artista, ano_lancamento)
-	VALUES ('Library of liberty', 1, 2003);  
+	VALUES ('Library of liberty', 4, 2003);  
 INSERT INTO album (nome, id_artista, ano_lancamento)
-	VALUES ('EnviChained Downos', 1, 2007);
+	VALUES ('Chained Down', 5, 2007);
 INSERT INTO album (nome, id_artista, ano_lancamento)
-	VALUES ('Cabinet of fools', 1, 2012);
+	VALUES ('Cabinet of fools', 5, 2012);
 INSERT INTO album (nome, id_artista, ano_lancamento)
-	VALUES ('No guarantees', 1, 2015);
+	VALUES ('No guarantees', 5, 2015);
 INSERT INTO album (nome, id_artista, ano_lancamento)
-	VALUES ('Apparatus', 1, 2015);
+	VALUES ('Apparatus', 6, 2015);
 
 INSERT INTO cancao (nome, id_album, duracao_segundos)
   VALUES('Soul For Us ', 1, 200);
