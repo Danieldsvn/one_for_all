@@ -7,7 +7,7 @@ USE SpotifyClone;
 CREATE TABLE plano(
 	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   nome VARCHAR(100) NOT NULL,
-  valor FLOAT NOT NULL  
+  valor DECIMAL(3,2) NOT NULL  
 );
 
 CREATE TABLE usuario(
@@ -58,13 +58,13 @@ CREATE TABLE historico_usuario(
 );
 
 INSERT INTO plano ( nome, valor)
-	VALUES ( 'gratuito', 0);
+	VALUES ( 'gratuito', 0.00);
 INSERT INTO plano ( nome, valor)
-	VALUES ( 'familiar', 799);
+	VALUES ( 'familiar', 7.99);
 INSERT INTO plano ( nome, valor)
-	VALUES ( 'universitario', 599);
+	VALUES ( 'universitario', 5.99);
 INSERT INTO plano ( nome, valor)
-	VALUES ( 'pessoal', 699); 
+	VALUES ( 'pessoal', 6.99); 
   
 INSERT INTO usuario (nome, idade, id_plano, data_assinatura)
 	VALUES ( 'Thati',	23,	1,	'2019-10-20');
