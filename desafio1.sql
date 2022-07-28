@@ -116,9 +116,9 @@ INSERT INTO album (nome, id_artista, ano_lancamento)
 	VALUES ('Apparatus', 6, 2015);
 
 INSERT INTO cancao (nome, id_album, duracao_segundos)
-  VALUES('Soul For Us ', 1, 200);
+  VALUES('Soul For Us', 1, 200);
 INSERT INTO cancao (nome, id_album, duracao_segundos)
-  VALUES('Reflections Of Magic ', 1, 163);
+  VALUES('Reflections Of Magic', 1, 163);
 INSERT INTO cancao (nome, id_album, duracao_segundos)
   VALUES('Dance With Her Own', 1, 116);
 INSERT INTO cancao (nome, id_album, duracao_segundos)
