@@ -1,13 +1,29 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# One For All 
+21º projeto na Trybe. Projeto para praticar criação, normalização e relação de tabelas com MySQL e aplicação de regras de negócio.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Proposta do projeto
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Foram fornecidos dados diversos não normalizados de uma empresa semelhante ao Spotify. Neste projeto, os dados foram normalizados em várias tabelas(processo executado nos arquivos `./*.xlsx`) na criação do banco de dados `SpotifyClone`, este último passo executado no arquivo `./desafio1.sql`.
+
+## Tecnologias empregadas
+
+MySQL
+
+## Habilidades praticadas
+
+  * Aplicação de regras de negócio na criação de tabekas
+
+  * Normalização de tabelas
+
+  * Criar e popular banco de dados  
+
+  * Fazer queries com tabelas relacionadas com uso de JOIN
+
+## O que é de minha autoria:
+
+* Os arquivos do padrão `./desafio*.sql` 
+
+* `./SpotifyClone-NormalizedTable.xlsx`
+
+* `./SpotifyClone-SemiNormalizedTable.xlsx`
+
