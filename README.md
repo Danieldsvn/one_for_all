@@ -11,13 +11,13 @@ MySQL
 
 ## Habilidades praticadas
 
-  * Aplicação de regras de negócio na criação de tabekas
+  * Aplicação de regras de negócio na criação de tabelas.
 
-  * Normalização de tabelas
+  * Normalização de tabelas.
 
-  * Criar e popular banco de dados  
+  * Criar e popular banco de dados.  
 
-  * Fazer queries com tabelas relacionadas com uso de JOIN
+  * Fazer queries com tabelas relacionadas com uso de JOIN.
 
 ## O que é de minha autoria:
 
