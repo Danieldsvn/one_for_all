@@ -1,5 +1,5 @@
 # One For All 
-21º projeto na Trybe. Projeto para praticar criação, normalização e relação de tabelas com MySQL e aplicação de regras de negócio.
+20º projeto na Trybe. Projeto para praticar criação, normalização e relação de tabelas com MySQL e aplicação de regras de negócio.
 
 ## Proposta do projeto
 
